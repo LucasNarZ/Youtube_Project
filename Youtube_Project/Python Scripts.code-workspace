@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../Python Scripts"
+		},
+		{
+			"path": "../../C# Scripts"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../JavaScript"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML-CSS"
+	}
+}

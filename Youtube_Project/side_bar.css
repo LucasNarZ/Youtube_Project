@@ -1,0 +1,41 @@
+p{
+  font-size: 10px;
+}
+
+nav{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  width: 73px;
+  background-color: white;
+  white-space: nowrap;
+  z-index: 101;
+}
+.home_box,.explore_box,.subscription_box,.originals_box,.youtube_music_box,.library_box{
+  display: flex;
+  align-items: start;
+  background-color: white;
+}
+.home,.explore,.subscription,.originals,.youtube_music,.library{
+  width: 25px;
+  height: 25px;
+  margin-bottom: 5px;
+}
+.home_button,.explore_button,
+.subscription_button,.originals_button,
+.youtube_music_button,.library_button{
+  width: 100%;
+  border: none;
+  background-color: white;
+  padding: 15px 0;
+}
+.home_button{
+  margin-top: 6px;
+}
+.home_button:hover,.explore_button:hover,
+.subscription_button:hover,.originals_button:hover,
+.youtube_music_button:hover,.library_button:hover{
+  background-color: rgb(235, 235, 235);
+  cursor: pointer;
+}
